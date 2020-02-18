@@ -1,0 +1,30 @@
+{
+  "name": "proxy-cms-api",
+  "version": "1.0.0",
+  "main": "./bin/proxy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "lcp": "bin/proxy.js"
+  },
+  "author": "Nicolas Zozol",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicolas-zozol/proxy-cms-api.git"
+  },
+  "keywords": ["proxy", "simple", "node", "https", "api", "cms"],
+  "bugs": {
+    "url": "https://github.com/nicolas-zozol/proxy-cms-api/issues"
+  },
+  "homepage": "https://github.com/nicolas-zozol/proxy-cms-api#readme",
+  "dependencies": {
+    "chalk": "^2.3.2",
+    "command-line-args": "^5.0.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "request": "^2.85.0",
+    "https": "^1.0.0"
+  }
+}
