@@ -16,7 +16,7 @@ in `/etc/hosts` add domaindev to localhost alias
 
 
 ```
-node bin/proxy.js --cms http://172.1.1.1  --api https://example.com --key domaindev --port 44357 
+node bin/proxy.js --cms http://172.1.1.1  --api https://example.com --domain domaindev --port 44357 
 ```
 
 You should modify these default values in the bin/proxy.js file
